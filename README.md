@@ -5,4 +5,4 @@
 - 💬 Talk to me about skincare, video games, learning languages, books, poetry and sci-fi movies.
 - 📫 How to reach me: samantharosado@protonmail.com
 - 😄 Pronouns: She/her
-- ⚡ Fun fact: I am emoji obsessed 🤪🥰
+- ⚡ Fun fact: Unfortunately, I am obsessed with emojis 🤪🥰
