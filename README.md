@@ -1,7 +1,7 @@
 ### Hi there 👋
 
-- 🔭 I’m currently working on my Align the Stars Website 
-- 🌱 I’m currently learning Javascript
+- 🔭 I’m currently working as an Android App Developer
+- 🌱 I’m currently learning Kotlin & Java
 - 💬 Talk to me about skincare, video games, learning languages, books, poetry and sci-fi movies.
 - 📫 How to reach me: samantharosado@protonmail.com
 - 😄 Pronouns: She/her
