@@ -1,6 +1,6 @@
 # Hey, I'm Sammie 👋
 
-Software Engineer building thoughtful software, mobile apps, and developer tools.
+Software Engineer
 
 ## 🎓 Education
 
