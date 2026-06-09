@@ -1,9 +1,39 @@
 # Hey, I'm Sammie 👋
 
+Software Engineer building thoughtful software, mobile apps, and developer tools.
+
 ## 🎓 Education
 
 - Master of Science, Data Analytics (Data Engineering)
 - Bachelor of Science, Software Development
+
+## 🚀 Featured Projects
+
+### WCAG Checker
+Open-source accessibility auditing platform for websites, HTML, and PDFs.
+
+- WCAG 2.2 AA compliance scanning
+- axe-core + Playwright integration
+- PDF/UA validation via veraPDF
+- Client-ready HTML reports
+- Local-first architecture (no third-party SaaS)
+
+**Tech:** Node.js, Express, Playwright, axe-core, veraPDF
+
+### Serene: Interlinear Bible
+A modern Bible study app focused on study, reflection, and simplicity.
+
+- Strong's Concordance
+- Multiple Bible translations
+- Daily Verse widget
+- Offline-first experience
+
+**Tech:** Kotlin, Jetpack Compose, Android
+
+### YumeBudget
+A calming budgeting experience designed to help people become more intentional with money.
+
+**Tech:** Android, Kotlin, Material Design
 
 ## 🛠 Tech
 
@@ -16,6 +46,7 @@
 - Python
 - Django
 - Flask
+- Node.js
 - GraphQL
 
 **Cloud & DevOps**
@@ -31,38 +62,16 @@
 - Elasticsearch
 - BigQuery
 
-## 🚀 Building
+## 🌱 Interests
 
-### Serene
-A modern interlinear Bible app focused on study, reflection, and simplicity.
+- Accessibility Engineering
+- Mobile Development
+- Open Source
+- AI-Assisted Development
+- Data Engineering
+- Product Design
 
-Features:
-- Strong's Concordance
-- Daily Verse Widget
-- Multiple Bible translations
-- Word studies
-- Offline-first experience
-
-### YumeBudget
-A calming budgeting app designed to help people build a healthier relationship with money.
-
-## 🌱 Currently Exploring
-
-- AI-assisted software development
-- Accessibility engineering
-- Mobile product design
-- Data engineering
-- Personal knowledge systems
-
-## 📈 Philosophy
-
-Build things that are:
-- Useful
-- Beautiful
-- Accessible
-- Simple
-
-## ☕ Connect
+## 📫 Connect
 
 - GitHub: @sammierosado
 - Ko-fi: https://ko-fi.com/sammierosado
