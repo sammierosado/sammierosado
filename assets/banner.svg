@@ -36,7 +36,6 @@
       @media (prefers-reduced-motion: reduce) { .petal, .cloud { animation: none; } }
       .name { font: 800 104px/1 "Segoe UI", "Helvetica Neue", Arial, sans-serif; fill: #1F2A44; letter-spacing: -2px; }
       .hello { font: 600 26px "Hiragino Sans", "Yu Gothic UI", "Meiryo", "Noto Sans JP", sans-serif; fill: #C8372D; }
-      .tag { font: 500 24px "Segoe UI", "Helvetica Neue", Arial, sans-serif; fill: #6B5563; }
       .kana { font: 700 19px "Hiragino Sans", "Yu Gothic UI", "Meiryo", "Noto Sans JP", sans-serif; fill: #FFF4E8; }
     </style>
   </defs>
@@ -65,12 +64,11 @@
     <rect x="0" y="258" width="1200" height="6" fill="#1F3A5F"/>
 
     <!-- Text -->
-    <text class="hello" x="72" y="104">こんにちは!</text>
-    <text class="name" x="66" y="196">Sammie</text>
-    <text class="tag" x="72" y="236">curious builder · better together</text>
+    <text class="hello" x="72" y="124">こんにちは!</text>
+    <text class="name" x="66" y="218">Sammie</text>
 
     <!-- Hanko-style name stamp: サミー -->
-    <g transform="translate(488 108) rotate(-6)">
+    <g transform="translate(488 128) rotate(-6)">
       <rect width="62" height="86" rx="10" fill="#C8372D"/>
       <rect x="5" y="5" width="52" height="76" rx="7" fill="none" stroke="#FFF4E8" stroke-width="2" opacity="0.8"/>
       <text class="kana" x="31" y="31" text-anchor="middle">サ</text>
