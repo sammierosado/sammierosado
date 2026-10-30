@@ -1,10 +1,6 @@
 <p align="center">
   <img src="assets/banner.svg" alt="Banner: the name Sammie and a red name stamp reading サミー, beside Mount Fuji, a rising sun, ocean waves and drifting cherry blossoms" width="100%">
 </p>
-<p align="center">
-  <img src="assets/interests.svg" alt="Interests: photography, gaming and reading, shown as neon cards in a rainy cyberpunk city under a sign reading 趣味 (hobbies)" width="100%">
-</p>
-
 Hi! I'm Sammie 🌸
 
 ### 作る · *tsukuru* · things I make
