@@ -2,7 +2,7 @@
   <img src="assets/banner.svg" alt="Banner: the name Sammie and a red name stamp reading サミー, beside Mount Fuji, a rising sun, ocean waves and drifting cherry blossoms" width="100%">
 </p>
 
-Hi! I'm Sammie 🌸 I light up when technology and people click. Hand me a curious team, a fresh idea and a little *"what if…?"* and I'm happy for hours. The best things I've made, I made with someone.
+Hi! I'm Sammie 🌸
 
 ### 作る · *tsukuru* · things I make
 
