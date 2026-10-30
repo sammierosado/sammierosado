@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="1200" height="320" role="img" aria-labelledby="t d">
+  <title id="t">Sammie</title>
+  <desc id="d">The name Sammie beside a red name stamp reading サミー, with Mount Fuji, a rising sun, ocean waves and drifting cherry blossoms.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFF4E8"/>
+      <stop offset="0.6" stop-color="#FDE2DA"/>
+      <stop offset="1" stop-color="#F9D3D6"/>
+    </linearGradient>
+    <radialGradient id="sun" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0.85" stop-color="#E8574A"/>
+      <stop offset="1" stop-color="#E8574A" stop-opacity="0"/>
+    </radialGradient>
+    <!-- Seigaiha: rows of overlapping concentric half-circles -->
+    <pattern id="waves" width="48" height="24" patternUnits="userSpaceOnUse">
+      <g id="scale">
+        <circle cx="0" cy="24" r="24" fill="#1F3A5F"/>
+        <circle cx="0" cy="24" r="19" fill="#F4EFE6"/>
+        <circle cx="0" cy="24" r="15" fill="#1F3A5F"/>
+        <circle cx="0" cy="24" r="10" fill="#F4EFE6"/>
+        <circle cx="0" cy="24" r="6" fill="#1F3A5F"/>
+      </g>
+      <use href="#scale" x="48"/>
+      <use href="#scale" x="24" y="12"/>
+    </pattern>
+    <clipPath id="frame"><rect width="1200" height="320" rx="24"/></clipPath>
+    <style>
+      .petal { transform-box: fill-box; transform-origin: center; animation: fall linear infinite; }
+      .cloud { animation: drift 14s ease-in-out infinite alternate; }
+      @keyframes fall {
+        0%   { transform: translate(0, -60px) rotate(0deg); opacity: 0; }
+        10%  { opacity: 1; }
+        100% { transform: translate(-220px, 380px) rotate(420deg); opacity: 0.9; }
+      }
+      @keyframes drift { from { transform: translateX(-20px); } to { transform: translateX(30px); } }
+      @media (prefers-reduced-motion: reduce) { .petal, .cloud { animation: none; } }
+      .name { font: 800 104px/1 "Segoe UI", "Helvetica Neue", Arial, sans-serif; fill: #1F2A44; letter-spacing: -2px; }
+      .hello { font: 600 26px "Hiragino Sans", "Yu Gothic UI", "Meiryo", "Noto Sans JP", sans-serif; fill: #C8372D; }
+      .tag { font: 500 24px "Segoe UI", "Helvetica Neue", Arial, sans-serif; fill: #6B5563; }
+      .kana { font: 700 19px "Hiragino Sans", "Yu Gothic UI", "Meiryo", "Noto Sans JP", sans-serif; fill: #FFF4E8; }
+    </style>
+  </defs>
+
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="320" fill="url(#sky)"/>
+
+    <!-- Rising sun behind the mountain -->
+    <circle cx="890" cy="150" r="100" fill="url(#sun)"/>
+
+    <!-- Drifting clouds -->
+    <g class="cloud" fill="#FFFFFF" opacity="0.85">
+      <rect x="640" y="92" width="150" height="16" rx="8"/>
+      <rect x="680" y="76" width="90" height="16" rx="8"/>
+      <rect x="980" y="112" width="170" height="16" rx="8"/>
+      <rect x="1020" y="96" width="80" height="16" rx="8"/>
+    </g>
+
+    <!-- Mount Fuji -->
+    <polygon points="872,154 908,154 1160,300 620,300" fill="#34406B"/>
+    <polygon points="872,154 908,154 982,197 962,190 944,204 926,191 890,207 854,191 836,204 818,190 798,197" fill="#FBF8F3"/>
+
+    <!-- Seigaiha waves -->
+    <rect x="0" y="262" width="1200" height="58" fill="#F4EFE6"/>
+    <rect x="0" y="262" width="1200" height="58" fill="url(#waves)"/>
+    <rect x="0" y="258" width="1200" height="6" fill="#1F3A5F"/>
+
+    <!-- Text -->
+    <text class="hello" x="72" y="104">こんにちは!</text>
+    <text class="name" x="66" y="196">Sammie</text>
+    <text class="tag" x="72" y="236">curious builder · better together</text>
+
+    <!-- Hanko-style name stamp: サミー -->
+    <g transform="translate(488 108) rotate(-6)">
+      <rect width="62" height="86" rx="10" fill="#C8372D"/>
+      <rect x="5" y="5" width="52" height="76" rx="7" fill="none" stroke="#FFF4E8" stroke-width="2" opacity="0.8"/>
+      <text class="kana" x="31" y="31" text-anchor="middle">サ</text>
+      <text class="kana" x="31" y="54" text-anchor="middle">ミ</text>
+      <text class="kana" x="31" y="76" text-anchor="middle">ー</text>
+    </g>
+
+    <!-- Cherry blossom petals -->
+    <g fill="#F4A3BC">
+      <ellipse class="petal" cx="620" cy="20" rx="7" ry="4" style="animation-duration: 11s; animation-delay: -1s"/>
+      <ellipse class="petal" cx="720" cy="0" rx="6" ry="3.5" style="animation-duration: 13s; animation-delay: -6s"/>
+      <ellipse class="petal" cx="820" cy="10" rx="8" ry="4.5" style="animation-duration: 10s; animation-delay: -3s"/>
+      <ellipse class="petal" cx="930" cy="-10" rx="6" ry="3.5" style="animation-duration: 12s; animation-delay: -8s"/>
+      <ellipse class="petal" cx="1040" cy="15" rx="7" ry="4" style="animation-duration: 14s; animation-delay: -2s"/>
+      <ellipse class="petal" cx="1150" cy="0" rx="6" ry="3.5" style="animation-duration: 11s; animation-delay: -5s"/>
+      <ellipse class="petal" cx="1240" cy="30" rx="7" ry="4" style="animation-duration: 15s; animation-delay: -10s"/>
+    </g>
+    <g fill="#F9C9D6">
+      <ellipse class="petal" cx="560" cy="-20" rx="5" ry="3" style="animation-duration: 16s; animation-delay: -4s"/>
+      <ellipse class="petal" cx="770" cy="25" rx="5" ry="3" style="animation-duration: 12s; animation-delay: -9s"/>
+      <ellipse class="petal" cx="990" cy="-5" rx="5" ry="3" style="animation-duration: 13s; animation-delay: -11s"/>
+      <ellipse class="petal" cx="1100" cy="20" rx="5" ry="3" style="animation-duration: 10s; animation-delay: -7s"/>
+      <ellipse class="petal" cx="1200" cy="-15" rx="5" ry="3" style="animation-duration: 14s; animation-delay: -12s"/>
+    </g>
+  </g>
+</svg>

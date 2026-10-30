@@ -1,79 +1,23 @@
-# Hey, I'm Sammie 👋
+<p align="center">
+  <img src="assets/banner.svg" alt="Banner: the name Sammie and a red name stamp reading サミー, beside Mount Fuji, a rising sun, ocean waves and drifting cherry blossoms" width="100%">
+</p>
 
-Software Engineer
+Hi! I'm Sammie 🌸 I light up when technology and people click. Hand me a curious team, a fresh idea and a little *"what if…?"* and I'm happy for hours. The best things I've made, I made with someone.
 
-## 🎓 Education
+### 作る · *tsukuru* · things I make
 
-- Master of Science, Data Analytics (Data Engineering)
-- Bachelor of Science, Software Development
+- 📖 **Serene**: an interlinear Bible for Android, Hebrew and Greek word by word
+- ♿ **[WCAG Checker](https://github.com/sammierosado/wcag-checker)**: helps make the web work for everyone, right on your own machine
+- 💭 **YumeBudget**: budgeting that feels like a deep breath *(夢 yume = dream)*
 
-## 🚀 Featured Projects
+### 学び · *manabi* · learning
 
-### WCAG Checker
-Open-source accessibility auditing platform for websites, HTML, and PDFs.
+- 🎓 M.S. Data Analytics (Data Engineering)
+- 🎓 B.S. Software Development
 
-- WCAG 2.2 AA compliance scanning
-- axe-core + Playwright integration
-- PDF/UA validation via veraPDF
-- Client-ready HTML reports
-- Local-first architecture (no third-party SaaS)
+### 繋がり · *tsunagari* · let's connect
 
-**Tech:** Node.js, Express, Playwright, axe-core, veraPDF
+Got an idea? I'd love to build it with you.
 
-### Serene: Interlinear Bible
-A modern Bible study app focused on study, reflection, and simplicity.
-
-- Strong's Concordance
-- Multiple Bible translations
-- Daily Verse widget
-- Offline-first experience
-
-**Tech:** Kotlin, Jetpack Compose, Android
-
-### YumeBudget
-A calming budgeting experience designed to help people become more intentional with money.
-
-**Tech:** Android, Kotlin, Material Design
-
-## 🛠 Tech
-
-**Mobile**
-- Kotlin
-- Jetpack Compose
-- Android
-
-**Backend**
-- Python
-- Django
-- Flask
-- Node.js
-- GraphQL
-
-**Cloud & DevOps**
-- AWS
-- Google Cloud
-- Firebase
-- Docker
-- Azure DevOps
-
-**Data**
-- PostgreSQL
-- Redis
-- Elasticsearch
-- BigQuery
-
-## 🌱 Interests
-
-- Accessibility Engineering
-- Mobile Development
-- Open Source
-- AI-Assisted Development
-- Data Engineering
-- Product Design
-
-## 📫 Connect
-
-- GitHub: @sammierosado
-- Ko-fi: https://ko-fi.com/sammierosado
-
----
+- GitHub: [@sammierosado](https://github.com/sammierosado)
+- Ko-fi: [ko-fi.com/sammierosado](https://ko-fi.com/sammierosado) ☕
